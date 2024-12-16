@@ -1,0 +1,99 @@
+/*
+Theme Name: Musician Theme
+Theme URI: http://molly-harrison-music.local/
+Author: Leigh Harrison
+Description: A custom theme for a musician.
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: musician-theme
+*/
+
+
+.nav-container {
+    text-align: left;
+    background-color: #ffffff; 
+    padding: 10px;
+    border-top: 2px solid #b38b8b; 
+    border-bottom: 2px solid #b38b8b;
+}
+
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+
+.nav-menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+.nav-menu a {
+    font-size: 18px; 
+    color: #333333; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    color: #b38b8b; 
+    text-decoration: underline; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-logo {
+    max-width: 500px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.social-links {
+    text-align: center; 
+    margin: 20px 0;
+}
+
+.social-links a {
+    color: #333; 
+    margin: 0 10px; 
+    font-size: 24px; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #b38b8b; 
+}
+
+footer {
+    background-color: #fff; 
+    color: #333; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-container p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+ 
+
+
+
